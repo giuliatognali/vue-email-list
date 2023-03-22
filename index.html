@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- /axios -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- /google font -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /css -->
+    <title>Random email</title>
+</head>
+
+<body>
+    <div id="app" v-cloak>
+        <div class="container">
+            <h1>E-mail List</h1>
+            <ul>
+                <li v-for="email in emailsList"> {{email}} </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Vue Js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- /Vue Js -->
+    <!-- my Js -->
+    <script src="js/main.js"></script>
+    <!-- /my Js -->
+</body>
+
+</html>

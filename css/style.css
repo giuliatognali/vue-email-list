@@ -1,0 +1,38 @@
+/***********
+Reset
+************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***********
+Common
+************/
+[v-cloak] {
+    display: none
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/***********
+Main
+************/
+
+.container{
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 5px 0;
+}
+h1{
+    padding-bottom: 10px;
+}
