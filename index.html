@@ -23,7 +23,8 @@
     <div id="app" v-cloak>
         <div class="container">
             <h1>E-mail List</h1>
-            <ul>
+            <!-- mostra emailList quando è ===10 -->
+            <ul v-if="emailsList.length === 10">
                 <li v-for="email in emailsList"> {{email}} </li>
             </ul>
         </div>
